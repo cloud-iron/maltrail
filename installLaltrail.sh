@@ -3,7 +3,7 @@
 sudo apt update && sudo apt upgrade
 
 # Install required 
-sudo apt-get install git schedtool python-pcapy -y
+sudo apt-get install git schedtool python-openssl python-pcapy -y
 
 # clone maltrail
 git clone --depth 1 https://github.com/stamparm/maltrail.git /tmp/maltrail
@@ -16,3 +16,5 @@ sudo openssl req -new -x509 -keyout server.pem -out server.pem -days 365 -nodes 
 
 # Change ssl false for true 
 sudo sed -i 's/USE_SSL false/USE_SSL true/g' /opt/maltrail/maltrail.conf
+sudo sed -i 's/#SSL_PEM/SSL_PEM/g' /opt/maltrail/maltrail.conf
+
