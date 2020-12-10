@@ -1,8 +1,8 @@
 ## Install Maltrail ##
 ### Resources
-- [Github maltrail link](https://github.com/stamparm/maltrail)
-- [Install maltrail link](https://www.osradar.com/how-to-install-maltrail-malicious-traffic-detection-system-on-linux/)
-- [Description maltrail link](https://esgeeks.com/maltrail-monitorizar-trafico-malicioso/)
+- [Github maltrail link](https://github.com/stamparm/maltrail){:target="_blank"}
+- [Install maltrail link](https://www.osradar.com/how-to-install-maltrail-malicious-traffic-detection-system-on-linux/){:target="_blank"}
+- [Description maltrail link](https://esgeeks.com/maltrail-monitorizar-trafico-malicioso/){:target="_blank"}
 
 ### Install
 - git clone https://github.com/gbolivar/maltrail.git
