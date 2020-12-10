@@ -11,7 +11,10 @@
 
 ### Running
 - cd /opt/maltrail
+#### Open in terninal one
 - sudo python sensor.py
+#### Open in terminal two
+- sudo python server.py
 
 ### Browser
 - browser https://127.0.0.1:8338 
