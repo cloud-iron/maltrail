@@ -2,8 +2,8 @@
 # Update your System
 sudo apt update && sudo apt upgrade
 
-# Install required
-sudo apt-get install git python-pcapy -y
+# Install required 
+sudo apt-get install git schedtool python-pcapy -y
 
 # clone maltrail
 git clone --depth 1 https://github.com/stamparm/maltrail.git /tmp/maltrail
