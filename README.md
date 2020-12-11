@@ -5,7 +5,7 @@
 - [Description maltrail link](https://esgeeks.com/maltrail-monitorizar-trafico-malicioso/)
 
 ### Install
-- git clone https://github.com/gbolivar/maltrail.git
+- git clone https://github.com/ironsofts/maltrail.git
 - cd maltrail
 - sh installmaltrail.sh
 
